@@ -5,7 +5,7 @@ const app = express();
 app.get("/", (req, res) => {
   res.status(200).send({
     success: true,
-    message: "Port runnig succesfully",
+    message: "Port runnig on livE succesfully",
   });
 });
 app.get("/test", (req, res) => {

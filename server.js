@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 app.get("/test", (req, res) => {
   res.status(200).send({
     success: true,
-    message: "Testing succesfully",
+    message: "Testing succesfully on live Host",
   });
 });
 
